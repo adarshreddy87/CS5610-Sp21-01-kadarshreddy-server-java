@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <h1>Profile</h1>
+    <div class="form-group row">
+        <label for="username"
+               class="col-sm-2 col-form-label wbdv-field wbdv-username">
+            Username
+        </label>
+        <div class="col-sm-10">
+            <input type="text"
+                   class="form-control"
+                   id="username"
+                   placeholder="Alice"
+                   readonly
+            >
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="phone"
+               class="col-sm-2 col-form-label">
+            Phone </label>
+        <div class="col-sm-10">
+            <input type="number"
+                   class="form-control wbdv-field"
+                   id="phone"
+                   placeholder="123-456-7890">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="email"
+               class="col-sm-2 col-form-label">
+            Email </label>
+        <div class="col-sm-10">
+            <input type="email"
+                   class="form-control wbdv-field"
+                   id="email"
+                   placeholder="alice@gmail.com">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="role" class="col-sm-2 col-form-label">
+            Role </label>
+        <div class="col-sm-10">
+            <select class="form-control" id="role">
+                <option>Faculty</option>
+                <option>Student</option>
+                <option>Admin</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="date" class="col-sm-2 col-form-label">
+            Date of Birth </label>
+        <div class="col-sm-10">
+            <input type="date" class="form-control wbdv-field"
+                   id="date" placeholder="2020/12/31">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <button class="btn btn-success btn-block wbdv-login">Update</button>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <a href ="/index.html" class="btn btn-danger btn-block">LogOut</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
