@@ -1,0 +1,39 @@
+h1{
+text-align:center;
+padding-top: 15px;
+padding-bottom:30px;
+background-color:#fae098;
+}
+
+.first-div{
+padding-top:100px;
+padding-bottom:30px;
+}
+
+.second-div{
+padding-top:50px;
+}
+
+.loginBtn{
+color:white;
+background-color:#3c7bab;
+border-radius:15px;
+}
+
+.signupBtn{
+color:white;
+background-color:#3a9177;
+border-radius:15px;
+}
+
+.courseManagerBtn{
+color:white;
+background-color:#c742c5;
+border-radius: 15px;
+}
+
+.courseEditorBtn{
+color:white;
+background-color:#f78a40;
+border-radius: 15px;
+}

@@ -2,35 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
 <h1>Home Page</h1>
-
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-3">
-        Existing User?
-        <a class="btn btn-primary btn-block" href="/login/login.template.client.html"> Login </a>
+<div class="container-fluid">
+<div class="row first-div">
+    <div class="col-sm-1 col-md-2">
     </div>
-    <div class="col-md-2"></div>
-    <div class="col-md-3">
-        New User?
-        <a class="btn btn-info btn-block" href="/register/register.template.client.html"> Sign Up </a>
+    <div class="col-sm-4 col-md-3">
+        <a class="loginBtn btn btn-block" href="/login/login.template.client.html"> Login </a>
+        <div class="row col-sm-12">
+            &nbsp;
+        </div>
+    </div>
+    <div class="col-sm-2 col-md-2">
+    </div>
+    <div class="col-sm-4 col-md-3">
+        <a class="signupBtn btn btn-block" href="/register/register.template.client.html"> Sign Up </a>
+    </div>
+</div>
+<div class="row second-div">
+    <div class="col-sm-12 col-md-12">
+        &nbsp;
     </div>
 </div>
 <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-3">
-        Course Manager
-        <a class="btn btn-warning btn-block" href=""> Course Manager </a>
+    <div class="col-sm-1 col-md-2">
     </div>
-    <div class="col-md-2"></div>
-    <div class="col-md-3">
-        Course Editor
-        <a class="btn btn-danger btn-block" href=""> Course Editor </a>
+    <div class="col-sm-4 col-md-3">
+        <a class="courseManagerBtn btn btn-block" href="/course-list/course-list.template.client.html">
+            Course Manager </a>
+        <div class="row col-sm-12">
+            &nbsp;
+        </div>
     </div>
+    <div class="col-sm-2 col-md-2">
+    </div>
+    <div class="col-sm-4 col-md-3">
+        <a class="courseEditorBtn btn btn-block" href=""> Course Editor </a>
+    </div>
+</div>
 </div>
 </body>
 </html>
