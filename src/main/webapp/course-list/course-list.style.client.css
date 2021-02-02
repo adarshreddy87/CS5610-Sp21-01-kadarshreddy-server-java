@@ -10,7 +10,9 @@ padding-top:5px;
 padding-bottom:10px;
 background-color:#2985e6;
 }
-
+h5{
+padding-top:5px;
+}
 .second-div-padding{
 width:100%;
 background-color:#e3e6e8;
@@ -27,5 +29,11 @@ color:white
 .every-row{
 padding-top:5px;
 padding-bottom:10px;
-background-color:#faf7c5
+margin:5px;
+background-color:#f2f18a;
+}
+
+.container{
+column-gap: 20px;
+justify-content: space-between;
 }
