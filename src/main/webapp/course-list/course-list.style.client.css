@@ -1,0 +1,31 @@
+.wbdv-sticky-top {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.wbdv-padding{
+color:white;
+padding-top:5px;
+padding-bottom:10px;
+background-color:#2985e6;
+}
+
+.second-div-padding{
+width:100%;
+background-color:#e3e6e8;
+padding-top:15px;
+padding-bottom:10px
+}
+.search-color{
+background-color:#bedbfa;
+}
+.dashboard-div{
+color:white
+}
+
+.every-row{
+padding-top:5px;
+padding-bottom:10px;
+background-color:#faf7c5
+}

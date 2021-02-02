@@ -1,26 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="/course-list/course-list.style.client.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <title>Course List</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <i class="fas fa-bars"></i>
-           <!-- <a class="navbar-brand" href="#">Course Manager</a> -->
+<div class="wbdv-sticky-top">
+    <div class="row wbdv-padding">
+        <div class="col-sm-3 col-md-1">
+            <i class="fa fa-bars fa-2x"></i>
         </div>
-        <ul class="nav navbar-nav">
-                <input type="text" class="form-control " placeholder="New Course Title"/>
-        </ul>
+        <div class="d-none d-sm-block col-md-2">
+            <h5>Course Manager</h5>
+        </div>
+        <div class="col-sm-6 col-md-7">
+            <input type="text" class="form-control search-color" placeholder="New Course Title"/>
+        </div>
+        <div class="col-sm-3 col-md-2">
+            <i class="fa fa-plus-circle fa-2x"></i>
+        </div>
     </div>
+</div>
+</br>
+</br>
+<div class="second-div-padding">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+            Title
+        </div>
+        <div class="col-md-2">
+            Owned by
+            &nbsp;
+            <i class="fa fa-sort-down"></i>
+        </div>
+        <div class="col-md-2">
+            Last modified by me
+        </div>
+        <div class="col-md-2">
+            <i class="fa fa-th"></i>
+            <i class="fa fa-sort"></i>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row every-row">
+        <div class="col-sm-6 col-md-5">
+            <a href="../editor/editor.html">
+                <i class="fa fa-file"></i>
+                CS4550
+            </a>
+        </div>
+        <div class="d-none d-sm-block col-md-2">
+            me
+        </div>
+        <div class="d-none d-sm-block col-md-3">
+            1/1/2021
+        </div>
+        <div class="col-sm-6 col-md-1">
+            <i class="fa fa-trash"></i>
+        </div>
+    </div>
+    <div class="row every-row">
+        <div class="col-md-5">
+            <a href="../editor/editor.html">
+                <i class="fa fa-file"></i>
+                CS4550
+            </a>
+        </div>
+        <div class="col-md-2">
+            me
+        </div>
+        <div class="col-md-3">
+            1/1/2021
+        </div>
+        <div class="col-md-1">
+            <i class="fa fa-trash"></i>
+        </div>
+    </div>
+    <div class="row every-row">
+        <div class="col-md-5">
+            <a href="../editor/editor.html">
+                <i class="fa fa-file"></i>
+                CS4550
+            </a>
+        </div>
+        <div class="col-md-2">
+            me
+        </div>
+        <div class="col-md-3">
+            1/1/2021
+        </div>
+        <div class="col-md-1">
+            <i class="fa fa-trash"></i>
+        </div>
+    </div>
+</div>
+    <br/>
+    <h4>Yesterday</h4>
+</div>
+<div class="container">
+    <div class="row every-row">
+        <div class="col-md-5">
+            <a href="../editor/editor.html">
+                <i class="fa fa-file"></i>
+                CS4550
+            </a>
+        </div>
+        <div class="col-md-2">
+            me
+        </div>
+        <div class="col-md-3">
+            1/1/2021
+        </div>
+        <div class="col-md-1">
+            <i class="fa fa-trash"></i>
+        </div>
+    </div>
+</div>
 
-    </ul>
-    </div>
-    <i class="fas fa-bars"></i>
-</nav>
 </body>
 </html>
