@@ -12,6 +12,11 @@ padding-bottom:30px;
 
 .second-div{
 padding-top:50px;
+
+.user-adm-btn{
+color:white;
+background-color:#c7ba08;
+border-radius:15px;
 }
 
 .loginBtn{
@@ -28,7 +33,7 @@ border-radius:15px;
 
 .courseListBtn{
 color:white;
-background-color:#c742c5;
+background-color:#a70cb3;
 border-radius: 15px;
 }
 
