@@ -4,7 +4,9 @@ padding-top: 15px;
 padding-bottom:30px;
 background-color:#fae098;
 }
-
+.abtn{
+color:black;
+}
 .first-div{
 padding-top:100px;
 padding-bottom:30px;
@@ -25,7 +27,7 @@ background-color:#3c7bab;
 border-radius:15px;
 }
 
-.signupBtn{
+.signUpBtn{
 color:white;
 background-color:#3a9177;
 border-radius:15px;
