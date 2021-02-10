@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Admin</title>
-    <link href="/user-admin/user-admin.style.client.css" rel="stylesheet"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="user-admin.style.client.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
@@ -23,53 +23,53 @@
             <th>Role</th>
         </tr>
         <tr>
-            <th><input type="text" class="form-control"></th>
-            <th><input type="password" class="form-control"></th>
-            <th><input type="text" class="form-control"></th>
-            <th><input type="text" class="form-control"></th>
+            <th><input type="text" class="usernameFld form-control"></th>
+            <th><input type="password" class="passwordFld form-control"></th>
+            <th><input type="text" class="firstnameFld form-control"></th>
+            <th><input type="text" class="lastnameFld form-control"></th>
             <th>
-                <select class="form-control">
+                <select class="roleFld form-control">
                     <option value="Faculty">Faculty</option>
                     <option value="Student">Student</option>
                     <option value="Staff">Staff</option>
                 </select>
             </th>
-            <th><i class="icon-remove-space btn fa fa-search fa-2x"></i></th>
-            <th><i id="create-user"  class="icon-remove-space btn fa fa-plus fa-2x"></i></th>
-            <th><i class="icon-remove-space btn fa fa-check fa-2x"></i></th>
+            <th><button class="btn fa fa-search fa-2x"></button></th>
+            <th><button id="create-user" class="btn fa fa-plus fa-2x"></button></th>
+            <th><button class="btn fa fa-check fa-2x"></button></th>
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>adarshreddy</td>
-            <td>123456</td>
-            <td>Adarsh</td>
-            <td>Reddy</td>
-            <td>Student</td>
-            <td><i class="icon-remove-space btn btn-danger fa fa-times fa-2x"></i></td>
-            <td><i class="icon-remove-space btn btn-info fa fa-pencil fa-2x"></i></td>
-        </tr>
-        <tr>
-            <td>kothireddy</td>
-            <td>12345678</td>
-            <td>Kothi</td>
-            <td>Reddy</td>
-            <td>Staff</td>
-            <td><i class="icon-remove-space btn btn-danger fa fa-times fa-2x"></i></td>
-            <td><i class="icon-remove-space btn btn-info fa fa-pencil fa-2x"></i></td>
-        </tr>
-        <tr>
-            <td>pullareddy</td>
-            <td>12345678</td>
-            <td>Pulla</td>
-            <td>Reddy</td>
-            <td>Faculty</td>
-                <td><i style="white-space:nowrap" class="icon-remove-space btn btn-danger fa fa-times fa-2x"></i></td>
-                <td><i style="white-space:nowrap" class="icon-remove-space btn btn-info fa fa-pencil fa-2x"></i></td>
-        </tr>
+<!--        <tr>-->
+<!--            <td>adarshreddy</td>-->
+<!--            <td>123456</td>-->
+<!--            <td>Adarsh</td>-->
+<!--            <td>Reddy</td>-->
+<!--            <td>Student</td>-->
+<!--            <td><button class="btn btn-danger fa fa-times fa-2x"></button></td>-->
+<!--            <td><button class="btn btn-info fa fa-pencil fa-2x"></button>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>kothireddy</td>-->
+<!--            <td>12345678</td>-->
+<!--            <td>Kothi</td>-->
+<!--            <td>Reddy</td>-->
+<!--            <td>Staff</td>-->
+<!--            <td><button class="btn btn-danger fa fa-times fa-2x"></button></td>-->
+<!--            <td><button class="btn btn-info fa fa-pencil fa-2x"></button></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>pullareddy</td>-->
+<!--            <td>12345678</td>-->
+<!--            <td>Pulla</td>-->
+<!--            <td>Reddy</td>-->
+<!--            <td>Faculty</td>-->
+<!--                <td><button style="white-space:nowrap" class="btn btn-danger fa fa-times fa-2x"></button></td>-->
+<!--                <td><button style="white-space:nowrap" class="btn btn-info fa fa-pencil fa-2x"></button></td>-->
+<!--        </tr>-->
     </tbody>
 </table>
 </div>
-<script src="/user-admin/user-admin.controller.client.js"></script>
+<script src="user-admin.controller.client.js"></script>
 </body>
 </html>

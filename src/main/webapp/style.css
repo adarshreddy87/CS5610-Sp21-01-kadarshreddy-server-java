@@ -1,46 +1,46 @@
 h1{
-text-align:center;
-padding-top: 15px;
-padding-bottom:30px;
-background-color:#fae098;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom:30px;
+    background-color:#fae098;
 }
-.abtn{
-color:black;
-}
+
 .first-div{
-padding-top:100px;
-padding-bottom:30px;
+    padding-top:100px;
+    padding-bottom:30px;
 }
 
 .second-div{
-padding-top:50px;
-
-.user-adm-btn{
-color:white;
-background-color:#c7ba08;
-border-radius:15px;
+    padding-top:50px;
 }
 
 .loginBtn{
-color:white;
-background-color:#3c7bab;
-border-radius:15px;
+    color:white;
+    background-color:#3c7bab;
+    border-radius:15px;
 }
 
-.signUpBtn{
-color:white;
-background-color:#3a9177;
-border-radius:15px;
+.signupBtn{
+    color:white;
+    background-color:#3a9177;
+    border-radius:15px;
 }
 
 .courseListBtn{
-color:white;
-background-color:#a70cb3;
-border-radius: 15px;
+    color:white;
+    background-color:#c742c5;
+    border-radius: 15px;
 }
 
 .courseEditorBtn{
-color:white;
-background-color:#f78a40;
-border-radius: 15px;
+    color:white;
+    background-color:#f78a40;
+    border-radius: 15px;
 }
+
+.userAdmBtn{
+    color:white;
+    background-color: #a08708;
+    border-radius:15px;
+}
+
