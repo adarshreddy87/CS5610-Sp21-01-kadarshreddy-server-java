@@ -6,8 +6,10 @@
     <title>User Admin</title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="user-admin.style.client.css" rel="stylesheet"/>
+<!--    <link href="/user-admin.style.client.css" rel="stylesheet"/>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../services/user-admin.service.client.js"></script>
+    <script src="user-admin.controller.client.js"></script>
 </head>
 <body>
 <h1>User Admin</h1>
@@ -34,9 +36,9 @@
                     <option value="Staff">Staff</option>
                 </select>
             </th>
-            <th><button class="btn fa fa-search fa-2x"></button></th>
-            <th><button id="create-user" class="btn fa fa-plus fa-2x"></button></th>
-            <th><button class="btn fa fa-check fa-2x"></button></th>
+            <th><i class="btn fa fa-search fa-2x"></i></th>
+            <th><i id="create-user" class="btn fa fa-plus fa-2x"></i></th>
+            <th><i id="update-user" class="btn fa fa-check fa-2x"></i></th>
         </tr>
     </thead>
     <tbody>
@@ -70,6 +72,5 @@
     </tbody>
 </table>
 </div>
-<script src="user-admin.controller.client.js"></script>
 </body>
 </html>
