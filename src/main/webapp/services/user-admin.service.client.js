@@ -18,8 +18,12 @@ function UserAdminServiceClient() {
         })
     }
     function findAllUsers() {
-        return fetch(self.url)
-            .then(function (response){
+        return fetch(self.url,{
+            method: 'GET',
+            headers: {
+                'content-type': 'application/json'
+            }
+        }).then(function (response){
             return response.json()
         })
     }

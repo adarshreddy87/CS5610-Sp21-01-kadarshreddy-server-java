@@ -25,12 +25,14 @@ function renderUsers(users) {
         var user = users[i]
         tableBody.append(`<tr>
                                    <td>${user.username}</td>
-                                   <td class="hidden">${user.password}</td>
+                                   <div><td class="hidden">${user.password}</td></div>
                                    <td>${user.firstName}</td>
                                    <td>${user.lastName}</td>
                                    <td>${user.role}</td>
-                                   <td><i id="${i}" class="delete-user btn btn-danger fa fa-times fa-2x"></i></td>
-                                   <td><i id="${user._id}" class="select-user btn btn-info fa fa-pencil fa-2x"></i></td>
+                                   <td>
+                                   <i id="${i}" class="delete-user fa fa-times fa-2x"></i>
+                                   <i id="${user._id}" class="select-user fa fa-pencil fa-2x"></i>
+                                   </td>
                                </tr>`
         );
     }

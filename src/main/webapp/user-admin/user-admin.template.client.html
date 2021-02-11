@@ -6,7 +6,7 @@
     <title>User Admin</title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-<!--    <link href="/user-admin.style.client.css" rel="stylesheet"/>-->
+    <link href="/user-admin.style.client.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../services/user-admin.service.client.js"></script>
     <script src="user-admin.controller.client.js"></script>
@@ -14,7 +14,7 @@
 <body>
 <h1>User Admin</h1>
 <br/>
-<div class="container-fluid user-admin-table">
+<div class="container-fluid">
 <table class="table">
     <thead>
         <tr>
@@ -36,9 +36,11 @@
                     <option value="Staff">Staff</option>
                 </select>
             </th>
-            <th><i class="btn fa fa-search fa-2x"></i></th>
-            <th><i id="create-user" class="btn fa fa-plus fa-2x"></i></th>
-            <th><i id="update-user" class="btn fa fa-check fa-2x"></i></th>
+            <th>
+                <i class="fa fa-search fa-2x"></i>
+                <i id="create-user" class="fa fa-plus fa-2x"></i>
+                <i id="update-user" class="fa fa-check fa-2x"></i>
+            </th>
         </tr>
     </thead>
     <tbody>
