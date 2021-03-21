@@ -17,29 +17,33 @@ h1{
 .loginBtn{
     color:white;
     background-color:#3c7bab;
-    border-radius:15px;
+    border-radius:12px;
 }
 
 .signupBtn{
     color:white;
     background-color:#3a9177;
-    border-radius:15px;
+    border-radius:12px;
 }
 
 .courseListBtn{
     color:white;
     background-color:#c742c5;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 
 .courseEditorBtn{
     color:white;
     background-color:#f78a40;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 
 .userAdmBtn{
     color:white;
     background-color: #a08708;
-    border-radius:15px;
+    border-radius:12px;
+}
+
+.allBtn:hover {
+    box-shadow: 6px 12px 16px 6px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
