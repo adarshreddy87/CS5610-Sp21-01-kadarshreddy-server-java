@@ -24,6 +24,12 @@ public class WidgetController {
         return service.findAllWidgetsForTopic(topicId);
     }
 
+    @GetMapping("/api/widgets/{wid}")
+    public Widget findWidgetById(
+            @PathVariable("wid") Long id) {
+        return service.findWidgetById(id);
+    }
+
     @PostMapping("/api/topics/{tid}/widgets")
     public Widget createWidgetForTopic(
             @PathVariable("tid") String topicId,
