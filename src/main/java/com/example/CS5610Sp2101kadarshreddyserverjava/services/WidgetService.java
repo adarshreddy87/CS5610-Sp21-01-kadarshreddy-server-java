@@ -24,9 +24,9 @@ public class WidgetService {
         widgets.add(w5);
     }
 
-    public Widget createWidgetForTopic(String topicId,Widget widget){
-        widget.setTopicId(topicId);
-        widget.setId((new Date()).getTime());
+    public Widget createWidgetForTopic(Widget widget){
+        Long id = (new Date()).getTime();
+        widget.setId(id);
         widgets.add(widget);
         return widget;
     }
@@ -35,7 +35,7 @@ public class WidgetService {
         return widgets;
     }
 
-    public List<Widget> findAllWidgetsForTopic(String topicId){
+    public List<Widget> findWidgetsForTopic(String topicId){
         List<Widget> ws = new ArrayList<Widget>();
         for(Widget w:widgets){
             if (w.getTopicId().equals(topicId)){
@@ -58,9 +58,12 @@ public class WidgetService {
         int index=-1;
         for(int i=0;i<widgets.size();i++){
             if(widgets.get(i).getId().equals(id)){
-                widgets.remove(i);
-                return 1;
+                index=i;
             }
+        }
+        if(index>=0){
+            widgets.remove(index);
+            return 1;
         }
         return -1;
     }

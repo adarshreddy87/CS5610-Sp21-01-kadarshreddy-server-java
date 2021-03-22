@@ -18,10 +18,10 @@ public class WidgetController {
         return service.findAllWidgets();
     }
 
-    @GetMapping("/api/topic/{tid}/widgets")
-    public List<Widget> findALlWidgetsForTopic(
+    @GetMapping("/api/topics/{tid}/widgets")
+    public List<Widget> findWidgetsForTopic(
             @PathVariable("tid") String topicId){
-        return service.findAllWidgetsForTopic(topicId);
+        return service.findWidgetsForTopic(topicId);
     }
 
     @GetMapping("/api/widgets/{wid}")
@@ -29,12 +29,12 @@ public class WidgetController {
             @PathVariable("wid") Long id) {
         return service.findWidgetById(id);
     }
-
     @PostMapping("/api/topics/{tid}/widgets")
     public Widget createWidgetForTopic(
             @PathVariable("tid") String topicId,
             @RequestBody Widget widget){
-        return service.createWidgetForTopic(topicId,widget);
+        widget.setTopicId(topicId);
+        return service.createWidgetForTopic(widget);
     }
 
     @PutMapping("/api/widgets/{wid}")
@@ -46,7 +46,7 @@ public class WidgetController {
 
     @DeleteMapping("/api/widgets/{wid}")
     public Integer deleteWidget(
-            @PathVariable("wid")Long id){
+            @PathVariable("wid") Long id){
         return service.deleteWidget(id);
     }
 }
