@@ -1,11 +1,45 @@
 package com.example.CS5610Sp2101kadarshreddyserverjava.models;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "widgets")
 public class Widget {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String topicId;
     private String type;
     private Integer size;
     private String text;
+    private Integer height;
+    private Integer width;
+    private String name;
+
+    public Integer getHeight() {
+        return height;
+    }
+
+    public void setHeight(Integer height) {
+        this.height = height;
+    }
+
+    public Integer getWidth() {
+        return width;
+    }
+
+    public void setWidth(Integer width) {
+        this.width = width;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public Long getId() {
         return id;
