@@ -84,7 +84,7 @@ public class WidgetService {
     }
 
     public Integer updateWidget(Long id, Widget widget){
-        Widget originalWidget = findWidgetById(id);
+        Widget originalWidget = this.findWidgetById(id);
         originalWidget.setText(widget.getText());
         repository.save(originalWidget);
         return 1;
